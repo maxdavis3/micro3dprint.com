@@ -1,169 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Contact Micro3d Print - Precision at the Microscale">
-    <meta name="keywords" content="micro 3d printing, micro3dprint, micro, printing, professional services, quality, innovation, max davis, ben stagl, ally reza, chilab, chilab studio, titobi, chicago, manufacturing, functional, 3d, prototype">
-    <meta property="og:title" content="Micro3d Print | Precision at the Microscale">
-    <meta property="og:description" content="Contact Micro3d Print - Precision at the Microscale">
-    <meta name="author" content="Max Davis, Ben Stagl, Ally Reza - ChiLab Studio">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="https://images.unsplash.com/photo-1632433302502-c5871f82ea4c?w=600&q=80">
-    <title>Contact Micro3d Print</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Micro3D Precision | Ultra-Precision Quote</title>
+  <link rel="stylesheet" href="shared-metal3d-styles.css">
+  <style>
+    :root {
+      --primary-color: #1A5490;
+      --secondary-color: #0D3A66;
+      --accent-color: #64B5F6;
+    }
+    .navbar-brand { color: var(--primary-color); font-weight: 700; }
+    .navbar-nav a::after { background-color: var(--primary-color); }
+    .hero { background: linear-gradient(135deg, #0D3A66 0%, #1A5490 50%, #64B5F6 100%); min-height: 300px; }
+    .form-submit { background: linear-gradient(135deg, #0D3A66, #1A5490); }
+    .form-control:focus { border-color: var(--primary-color); box-shadow: 0 0 0 3px rgba(26, 84, 144, 0.1); }
+  </style>
 </head>
 <body>
+  <nav class="navbar">
+    <div class="navbar-container">
+      <div class="navbar-brand">Micro3D Precision</div>
+      <button class="navbar-toggle">☰</button>
+      <ul class="navbar-nav">
+        <li><a href="micro3dprint-index.html">Home</a></li>
+        <li><a href="micro3dprint-about.html">About</a></li>
+        <li><a href="micro3dprint-services.html">Services</a></li>
+        <li><a href="micro3dprint-contact.html" class="cta-button">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
 
-    <header class="site-header">
-        <nav class="navbar">
-            <div class="nav-container">
-                <a href="index.html" class="nav-logo">
-                    <span class="logo-text">Micro3d Print</span>
-                </a>
-                <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
-                    <span class="hamburger"></span>
-                    <span class="hamburger"></span>
-                    <span class="hamburger"></span>
-                </button>
-                <ul class="nav-menu">
-                    <li><a href="index.html" class="nav-link">Home</a></li>
-                    <li><a href="about.html" class="nav-link">About</a></li>
-                    <li><a href="services.html" class="nav-link">Services</a></li>
-                    <li><a href="contact.html" class="nav-link active">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+  <section class="hero">
+    <div class="hero-background"><img src="images/01-titanium-turbine.png" alt="Metal 3D Printing" loading="lazy"><div class="hero-overlay"></div></div><div class="hero-content">
+      <h1>Get in Touch</h1>
+      <p>Request capability brief for ultra-precision manufacturing</p>
+    </div>
+  </section>
 
-    <main>
-        <section class="page-hero">
-            <div class="page-hero-bg">
-                <img src="https://images.unsplash.com/photo-1632433302502-c5871f82ea4c?w=600&q=80" alt="Contact Micro3d Print" loading="lazy">
-                <div class="page-hero-overlay"></div>
-            </div>
-            <div class="page-hero-content">
-                <h1>Contact Us</h1>
-                <p class="page-hero-subtitle">Get in touch with our team to discuss your micro 3d printing needs</p>
-            </div>
-        </section>
-
-        <section class="contact-section">
-            <div class="container">
-                <div class="contact-grid">
-                    <div class="contact-info animate-in">
-                        <h2>Let&rsquo;s Start a Conversation</h2>
-                        <p>Whether you have a question about our services, need a custom quote, or want to discuss a potential project, our team is ready to help.</p>
-                        <div class="contact-cards">
-                            <div class="contact-card">
-                                <div class="contact-card-icon">&#128338;</div>
-                                <h4>Business Hours</h4>
-                                <p>Monday &ndash; Friday: 9:00 AM &ndash; 5:00 PM EST</p>
-                            </div>
-                            <div class="contact-card">
-                                <div class="contact-card-icon">&#9993;</div>
-                                <h4>Response Time</h4>
-                                <p>We typically respond within 24 business hours.</p>
-                            </div>
-                            <div class="contact-card">
-                                <div class="contact-card-icon">&#9742;</div>
-                                <h4>Direct Contact</h4>
-                                <p>info@micro3dprint.com</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="contact-form-wrapper animate-in">
-                        <h2>Request a Quote</h2>
-                        <form action="https://api.web3forms.com/submit" method="POST" enctype="multipart/form-data" class="contact-form" id="rfqForm">
-                            <input type="hidden" name="subject" value="New contact from micro3dprint.com">
-                            <input type="hidden" name="access_key" value="6f33053b-6d08-414b-9615-665f88c98da8">
-                            <div class="form-group">
-                                <label for="name">Full Name <span class="required">*</span></label>
-                                <input type="text" id="name" name="name" required placeholder="Your full name">
-                                <div class="form-error" id="name-error"></div>
-                            </div>
-                            <div class="form-group">
-                                <label for="email">Email Address <span class="required">*</span></label>
-                                <input type="email" id="email" name="email" required placeholder="your@email.com">
-                                <div class="form-error" id="email-error"></div>
-                            </div>
-                            <div class="form-group">
-                                <label for="company">Company</label>
-                                <input type="text" id="company" name="company" placeholder="Your company name">
-                            </div>
-                            <div class="form-group">
-                                <label for="phone">Phone Number</label>
-                                <input type="tel" id="phone" name="phone" placeholder="(555) 123-4567">
-                            </div>
-                            <div class="form-group">
-                                <label for="message">Message <span class="required">*</span></label>
-                                <textarea id="message" name="message" rows="5" required placeholder="Tell us about your project..."></textarea>
-                                <div class="form-error" id="message-error"></div>
-                            </div>
-                            <div class="form-group">
-                                <label for="attachment">Attach File (optional)</label>
-                                <input type="file" id="attachment" name="attachment">
-                            </div>
-                            <button type="submit" class="btn btn-primary btn-large btn-submit">Send Message</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="cta-section">
-            <div class="cta-content">
-                <h2>Prefer to Talk?</h2>
-                <p>Our team is available to discuss your project directly.</p>
-                <a href="mailto:info@micro3dprint.com" class="btn btn-large">Email Us Directly</a>
-            </div>
-            <div class="cta-background">
-                <img src="https://images.unsplash.com/photo-1758403463317-56ae333c3f11?w=600&q=80" alt="Micro3d Print" loading="lazy">
-            </div>
-        </section>
-    </main>
-
-    <footer class="site-footer">
-        <div class="footer-container">
-            <div class="footer-main">
-                <div class="footer-brand">
-                    <div class="footer-logo">Micro3d Print</div>
-                    <p>Precision at the Microscale</p>
-                </div>
-                <div class="footer-links">
-                    <div class="footer-column">
-                        <h4>Company</h4>
-                        <ul>
-                            <li><a href="about.html">About Us</a></li>
-                            <li><a href="services.html">Services</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-column">
-                        <h4>Services</h4>
-                        <ul>
-                            <li><a href="services.html">Service 1</a></li>
-                            <li><a href="services.html">Service 2</a></li>
-                            <li><a href="services.html">Service 3</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-column">
-                        <h4>Contact</h4>
-                        <ul>
-                            <li>info@micro3dprint.com</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2026 Micro3d Print. All rights reserved.</p>
-            </div>
+  <section>
+    <div class="container">
+      <div class="grid grid-2">
+        <div>
+          <h2>Contact Information</h2>
+          <p><strong>Email:</strong> <a href="mailto:quote@micro3d.com">quote@micro3d.com</a></p>
+          <p><strong>Phone:</strong> +1 (555) 567-8901</p>
+          <p><strong>Response:</strong> 24 hours for capability assessment</p>
+          <h3 style="margin-top: 2rem;">Why Micro3D?</h3>
+          <ul class="feature-list">
+            <li>±0.001" tolerance on critical features</li>
+            <li>0.004-0.006" minimum feature size</li>
+            <li>100+ components per build via nesting</li>
+            <li>Ultra-fine 0.025-0.050mm layers</li>
+            <li>Microfluidics, medical devices, watchmaking expertise</li>
+          </ul>
         </div>
-    </footer>
 
-    <script src="js/main.js"></script>
+        <div>
+          <h2>Capability Request</h2>
+          <form id="contact-form">
+            <input type="hidden" name="from_name" value="Micro3D Precision Contact">
+            <div class="form-message"></div>
+
+            <div class="form-group">
+              <label for="name">Name *</label>
+              <input type="text" id="name" name="name" class="form-control" required>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email *</label>
+              <input type="email" id="email" name="email" class="form-control" required>
+            </div>
+
+            <div class="form-group">
+              <label for="industry">Industry *</label>
+              <select id="industry" name="industry" class="form-control" required>
+                <option value="">-- Select --</option>
+                <option value="microfluidics">Microfluidics</option>
+                <option value="medical">Medical Devices</option>
+                <option value="electronics">Electronics / Miniaturization</option>
+                <option value="watchmaking">Watchmaking</option>
+                <option value="research">Research & Academia</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Project Description *</label>
+              <textarea id="message" name="message" class="form-control" required placeholder="Required tolerance levels, feature sizes, material, volume..."></textarea>
+            </div>
+
+            <button type="submit" class="form-submit">Send Request</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-section">
+        <h4>Micro3D Precision</h4>
+        <p>Ultra-precision metal 3D printing for specialized applications.</p>
+      </div>
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <a href="micro3dprint-index.html">Home</a>
+        <a href="micro3dprint-about.html">About</a>
+        <a href="micro3dprint-services.html">Services</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Micro3D Precision. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="shared-metal3d-scripts.js"></script>
 </body>
 </html>
