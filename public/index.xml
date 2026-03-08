@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Micro 3D Print</title>
+    <link>https://micro3dprint.com/</link>
+    <description>Recent content on Micro 3D Print</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 08 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://micro3dprint.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Micro-Scale DMLS Tolerances: Practical Limits at Plus-or-Minus 0.001 Inch</title>
+      <link>https://micro3dprint.com/articles/guide/</link>
+      <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://micro3dprint.com/articles/guide/</guid>
+      <description>Micro-scale DMLS achieves tolerances an order of magnitude tighter than standard process settings. This guide quantifies what drives dimensional accuracy and its practical limits.</description>
+    </item>
+    <item>
+      <title>About Micro 3D Print</title>
+      <link>https://micro3dprint.com/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://micro3dprint.com/about/</guid>
+      <description>&lt;h2 id=&#34;precision-metal-printing-at-the-micro-scale&#34;&gt;Precision Metal Printing at the Micro Scale&lt;/h2&gt;&#xA;&lt;p&gt;Micro 3D Print covers the precision ceiling of metal additive manufacturing — DMLS parameter&#xA;sets optimized for 50 µm layers, 80 µm laser spot diameter, and feature resolution&#xA;approaching 0.15 mm (0.006 inch). Where standard DMLS optimizes for build rate and part&#xA;size, micro-DMLS optimizes for accuracy and minimum feature size.&lt;/p&gt;&#xA;&lt;p&gt;Applications: watchmaking (movement bridges, crown components), surgical instruments&#xA;(laparoscopic tips, implantable device housings), microfluidics (stainless channels&#xA;≥ 0.3 mm), precision sensors, and miniaturized electronics housings.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Advertise</title>
+      <link>https://micro3dprint.com/advertise/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://micro3dprint.com/advertise/</guid>
+      <description>&lt;h2 id=&#34;advertise-on-micro-3d-print&#34;&gt;Advertise on Micro 3D Print&lt;/h2&gt;&#xA;&lt;p&gt;Contact: &lt;a href=&#34;mailto:maxdavisgroup@gmail.com&#34;&gt;maxdavisgroup@gmail.com&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>https://micro3dprint.com/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://micro3dprint.com/contact/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Services</title>
+      <link>https://micro3dprint.com/services/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://micro3dprint.com/services/</guid>
+      <description>&lt;h2 id=&#34;micro-scale-dmls&#34;&gt;Micro-Scale DMLS&lt;/h2&gt;&#xA;&lt;p&gt;Micro-scale DMLS pushes the dimensional limits of the process: 50 µm layer&#xA;thickness, 80 µm laser spot size, and parameter sets optimized for fine features&#xA;rather than build rate. Achievable: 0.006 inch (0.15 mm) wall thickness, ±0.001 inch&#xA;(±0.025 mm) tolerance on features &amp;lt; 10 mm. Materials: Ti6Al4V, 17-4 PH, 316L,&#xA;CoCrMo. Applications: watchmaking, precision instruments, MEMS housings,&#xA;microfluidic manifolds, dental prosthetics, minimally invasive surgical tools.&lt;/p&gt;&#xA;&lt;h2 id=&#34;microfluidics--lab&#34;&gt;Microfluidics &amp;amp; Lab&lt;/h2&gt;&#xA;&lt;p&gt;Metal microfluidic components require the chemical inertness of stainless or&#xA;titanium combined with feature resolution below 0.5 mm. DMLS at micro-scale&#xA;parameters produces internal channels ≥ 0.3 mm diameter, multi-layer channel&#xA;networks, and integrated fittings. Applications: microreactors, high-pressure&#xA;fluid distribution, analytical instrument sample handling, and implantable drug&#xA;delivery device housings.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

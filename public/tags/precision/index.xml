@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Precision on Micro 3D Print</title>
+    <link>https://micro3dprint.com/tags/precision/</link>
+    <description>Recent content in Precision on Micro 3D Print</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 08 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://micro3dprint.com/tags/precision/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Micro-Scale DMLS Tolerances: Practical Limits at Plus-or-Minus 0.001 Inch</title>
+      <link>https://micro3dprint.com/articles/guide/</link>
+      <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://micro3dprint.com/articles/guide/</guid>
+      <description>Micro-scale DMLS achieves tolerances an order of magnitude tighter than standard process settings. This guide quantifies what drives dimensional accuracy and its practical limits.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,63 @@
+baseURL = "https://micro3dprint.com/"
+languageCode = "en-us"
+title = "Micro 3D Print"
+theme = "printwire-theme"
+[params]
+  siteName      = "Micro 3D Print"
+  tagline       = "Micro 3D Print — micro-scale metal 3D printing. ±0.001 inch tolerance, 0.006 inch minimum features, 50µm layers."
+  primaryColor  = "#a78bfa"
+  bgColor       = "#060412"
+  fontPrimary   = "Orbitron"
+  fontSecondary = "Space Grotesk"
+  fontURL       = "https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+  ogImage       = "https://images.unsplash.com/photo-1609770231080-e321deccc34c?w=1200&q=80"
+  favicon       = "🔬"
+  pubmedQuery   = "micro+metal+3D+printing+precision+DMLS+miniaturized"
+  contactEmail  = "maxdavisgroup@gmail.com"
+  web3formsKey  = "6f33053b-6d08-414b-9615-665f88c98da8"
+  xometryId     = "XOMETRY_AFFILIATE_ID"
+  domain        = "micro3dprint.com"
+  heroImage     = "https://images.unsplash.com/photo-1609770231080-e321deccc34c?w=1200&q=80"
+
+[[params.stats]]
+  number = "±0.001in"
+  label  = "Tolerance"
+
+[[params.stats]]
+  number = "0.006in"
+  label  = "Min Feature"
+
+[[params.stats]]
+  number = "50µm"
+  label  = "Layer Thickness"
+
+[[params.stats]]
+  number = "100+"
+  label  = "Micro Applications"
+
+[[params.services]]
+  title = "Micro-Scale DMLS"
+  icon  = "◎"
+  image = "https://images.unsplash.com/photo-1609770231080-e321deccc34c?w=600&q=80"
+  short = "±0.001 inch tolerance, 0.006 inch minimum features, 50µm layer thickness — the precision ceiling of metal additive manufacturing."
+
+[[params.services]]
+  title = "Microfluidics & Lab"
+  icon  = "✦"
+  image = "https://images.unsplash.com/photo-1609770231080-e321deccc34c?w=600&q=80"
+  short = "Stainless steel and titanium microfluidic channels, lab-on-chip housings, and reaction vessel inserts."
+
+[[params.services]]
+  title = "Watchmaking & Horology"
+  icon  = "⚙"
+  image = "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=600&q=80"
+  short = "Watch cases, movement bridges, and custom dial hardware in stainless and precious metals."
+
+[[params.services]]
+  title = "Surgical & Medical Micro"
+  icon  = "◈"
+  image = "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=600&q=80"
+  short = "Minimally invasive instrument tips, laparoscopic component housings, and patient-specific micro-implants."
+
+[markup.goldmark.renderer]
+  unsafe = true
